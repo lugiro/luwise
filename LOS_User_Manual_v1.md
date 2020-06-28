@@ -176,7 +176,7 @@ Hardware
 --------
 You will find all the necessary information about Servo PWM Pi 
 expansion board on the AB Electronics websites. 
-Board address, how to download python modules etc.
+<br>Board addresses, how to download python modules etc.
 
 
 IMPOTANT
@@ -186,7 +186,7 @@ Check that the servos not have high torque for a long time
 
 Feel free to use the program as you like. The program still have 
 some errors and there are no warranties for the use. The 
-developer of the LOS program have no responsibility for damage caused by
+developer of the LOS program has no responsibility for damage caused by
  the program and the servos. 
 
 
