@@ -179,7 +179,7 @@ expansion board on the AB Electronics websites.
 <br>Board addresses, how to download python modules etc.
 
 
-IMPOTANT
+IMPORTANT
 --------
 Check that the servos not have high torque for a long time 
 (minutes). This will cause high current and damage the servo
