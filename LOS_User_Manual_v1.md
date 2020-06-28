@@ -184,7 +184,7 @@ IMPOTANT
 Check that the servos not have high torque for a long time 
 (minutes). This will cause high current and damage the servo
 
-Feel free to use the program as you like. The program still have 
+Feel free to use the program as you like. The program still has 
 some errors and there are no warranties for the use. The 
 developer of the LOS program has no responsibility for damage caused by
  the program and the servos. 
