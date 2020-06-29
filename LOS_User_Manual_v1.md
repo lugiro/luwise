@@ -141,14 +141,16 @@ q - exit/quit<br>
 SETUP DATA
 ----------
 Command v
-|Program version             : |version number
-|Version date                : |versiondate
-|Task file name              : |fileName
-|Directory and file name     : |file directory and filename
-|Programming step size count : |stepSize
-|Delay between task cycles   : |delay
-|Running speed time          : |speed
-|Number of servos            : |NUMBERofSERVOS
+| Description | Content |
+| --- | --- |
+| Program version             : | version number |
+| Version date                : | versiondate |
+| Task file name              : | fileName |
+| Directory and file name     : | file directory and filename |
+| Programming step size count : | stepSize |
+| Delay between task cycles   : | delay |
+| Running speed time          : | speed |
+| Number of servos            : | NUMBERofSERVOS |
 
 
 
