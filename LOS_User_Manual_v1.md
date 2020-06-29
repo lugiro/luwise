@@ -143,7 +143,8 @@ Command h<br>
 SETUP DATA
 ----------
 Command v
-| **Description** | **Content** |
+| Description | Content |
+| :--- | :--- |
 | Program version             : | version number |
 | Version date                : | versiondate |
 | Task file name              : | fileName |
@@ -158,9 +159,10 @@ Command v
 Project specific startup values
 -------------------------------
 Values placed in the function controlModule() in losxxx.py<br>
-| **Varable** | **Value** | **Description** |
-| version | "2.00" | 
-| versiondate | "23.06.2020"|
+| Varable | Value | Description |
+| :--- | :--- | :--- |
+| version | "2.00" |  |  
+| versiondate | "23.06.2020" |  |
 | NUMBERofSERVOS | 6 | number of servos in your project |
 - stepSize = 10                (step size for programming servos)
 - speed = 0.01                 (speed for running task)
