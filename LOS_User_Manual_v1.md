@@ -173,7 +173,7 @@ Values placed in the function controlModule() in losxxx.py<br>
 | file |  dir + fileName + ext | task file |
 | drawFile | "robotDraw.txt" | draw file with servo numbers |
 | dFile | dir + drawFile |  | 
-| servoPOS |  | list of variable for actual servo position |
+| servoPOS |  | startup value = 0 for current servo positions |
 | stepMIN |  | minimum allowed step/angle for each servo |
 | stepMAX |  | maximum allowed step/angle for each servo | 
 | zeroANGLE |  |  defined zero position for servo | 
