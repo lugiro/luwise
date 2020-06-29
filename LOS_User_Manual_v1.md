@@ -164,21 +164,21 @@ Values placed in the function controlModule() in losxxx.py<br>
 | version | "2.00" |  |  
 | versiondate | "23.06.2020" |  |
 | NUMBERofSERVOS | 6 | number of servos in your project |
-- stepSize = 10                (step size for programming servos)
-- speed = 0.01                 (speed for running task)
-- delay = 0.0                  (delay between task cycles)
+| stepSize |  10 | step size for programming servos |
+| speed |  0.01 | speed for running task |
+| delay |  0.0 | delay between task cycles |
 
-- fileName = "task0"           (default task file name)
-- ext = ".mov"                 (file extension for task file)
-- dir = "/home/pi/RobotMan/"   (directory for files)
-- file = dir + fileName + ext  (task file)
-- drawFile = "robotDraw.txt"   (draw file with servo numbers)
-- dFile = dir + drawFile
+| fileName = "task0" | default task file name |
+| ext |  ".mov" | file extension for task file |
+| dir |  "/home/pi/RobotMan/" | directory for files |
+| file |  dir + fileName + ext | task file |
+| drawFile | "robotDraw.txt" | draw file with servo numbers |
+| dFile | dir + drawFile |  | 
 
-- servoPOS        (list of variable for actual servo position)
-- stepMIN         (minimum allowed step/angle for each servo)
-- stepMAX         (maximum allowed step/angle for each servo) 
-- zeroANGLE       (defined zero position for servo) 
+| servoPOS |  | list of variable for actual servo position |
+| stepMIN |  | minimum allowed step/angle for each servo |
+| stepMAX |  | maximum allowed step/angle for each servo | 
+| zeroANGLE |  |  defined zero position for servo | 
 
 
 Hardware
