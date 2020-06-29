@@ -24,21 +24,24 @@ window. To start the program, write:<br>python losxxx.py
 (xxx is the version number).
 
 Before using the program look at the startup values shown in the 
-function controlModule() in losxxx.py. 
-See also the enclosed list. Most of the values are self-explanatory.
+function controlModule() in losxxx.py.<br> 
+Also see the enclosed list. Most of the values are self-explanatory.
 
-The program is set up for 32 servos. Then you need two Servo PWM 
-Pi expansion board on the Raspberry pi. You also need an address 
-for board number two.
+The program is set up for 32 servos. You will need two Servo PWM 
+Pi expansion boards, with different board addresses. 
 
-There are three main functions in the program
+There are three main functions in the program:
 1.	Move the servos to desired positions and save these 
 positions in a task file
 2.	Run the saved task file
 3.	Fault handling and error correction
 
-When you have started the program the following text will appear:<br>New COMMAND:<br> 
-It can be useful to press the commands h (for help) and v (to show some setup data).
+When running the program the servos will always rapibly go to the defined zero position,
+ or angle 0, if not defined. Therefore when starting the program  with servos mounted on 
+a robot, it can be an advantage to have the possibility to quickly cut the voltage 
+to the servos. This can avoid damage on the robot.
+
+When running the program the following text will appear:<br>New COMMAND:<br>
 
 
 Normal startup process:
@@ -67,7 +70,7 @@ delay at startup is 0.
 
 If you want to run your programmed task file press **r**. You will 
 then be asked to go to zero position or not. Sometimes this can 
-be useful and sometimes not. Hit y or n.
+be useful and sometimes not. Hit y or n (or CR).
 The servos shall now move to the same positions that you have 
 programmed.
 
@@ -87,12 +90,12 @@ make a new empty task file and then append, with the command **a**,
 the file c1.mov to this empty file. Press **r** to run the file, then 
 you can press **p** and start programming as described earlier.
 
-After error correction with the new programming you can append 
+After error correction and  new programming you can append 
 the file c2.mov. Press **r** to run and test the new file.
 
 There are also some useful commands for changing setup values.
 The command **c** will change the step size for moving the servos in 
-the programming mode. Default step value is 10. With low step 
+the programming mode. Default step value is 10. With a low step 
 value there can be some problems when moving the servo with high 
 torque.
 The command **d** will set the delay (x.x sec) between two cycles. 
@@ -104,7 +107,7 @@ Default value is 0.01.
 
 File handling command **l** will list the content in current task 
 file. 
-Use the command **v** to see current task list.
+Use the command **v** to see, among other things, the name for the current task list.
 The command **f** will list all the .mov files
 The command **z** will return to the defined zero position.
 
@@ -138,14 +141,14 @@ q - exit/quit<br>
 SETUP DATA
 ----------
 Command v
-- Program version             : version number
-- Version date                : versiondate
-- Task file name              : fileName
-- Directory and file name     : file directory and filename
-- Programming step size count : stepSize
-- Delay between task cycles   : delay
-- Running speed time          : speed
-- Number of servos            : NUMBERofSERVOS
+|Program version             : |version number
+|Version date                : |versiondate
+|Task file name              : |fileName
+|Directory and file name     : |file directory and filename
+|Programming step size count : |stepSize
+|Delay between task cycles   : |delay
+|Running speed time          : |speed
+|Number of servos            : |NUMBERofSERVOS
 
 
 
@@ -181,8 +184,10 @@ expansion board on the AB Electronics websites.
 
 IMPORTANT
 --------
-Check that the servos not have high torque for a long time 
-(minutes). This will cause high current and damage the servo
+The servos should not have high torque for a long time 
+(minutes). This will cause high current and damage the servos.
+If you use a power supply with current measurement, you can
+control the torque this way.
 
 Feel free to use the program as you like. The program still has 
 some errors and there are no warranties for the use. The 
