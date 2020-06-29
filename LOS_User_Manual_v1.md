@@ -115,34 +115,34 @@ The command **z** will return to the defined zero position.
 HELP - COMMAND MENU
 -------------------
 Command h<br>
-n - make a new task file<br>
-o - open an existing task file<br>
-p - programming mode for servos<br>
-	num - Select servo 1 - x to move, under command p<br>
-s - save movement cycle in task file<br>
-l - list movement data in task file<br>
-a - append move data in task file<br>
-r - run task in task file<br>
-rc- run cycle by cycle in task file<br>
-(command save, saves cycles under command rc)<br>
-f - show task files (*.mov)<br>
-c - set step size count<br>
-(plus key   increase step, under command c)<br>
-(zero key   decrease step, under command c)<br>
-t - set new movement speed time<br>
-d - set new cycle delay<br>
-z - go to zero position<br>
-v - show version setup data<br>
-nu- show servo numbers<br>
-h - help<br>
-q - exit/quit<br> 
+| **Command** | **Descrition** |
+| n | make a new task file |
+| o | open an existing task file |
+| p | programming mode for servos |
+|   | num - Select servo 1 - x to move, under command p |
+| s | save movement cycle in task file |
+| l | list movement data in task file |
+| a | append move data in task file |
+| r | run task in task file |
+| rc | run cycle by cycle in task file |
+|   | command save, saves cycles under command rc |
+| f | show task files (*.mov) |
+| c | set step size count |
+|   | plus key   increase step, under command c |
+|   | zero key   decrease step, under command c |
+| t | set new movement speed time |
+| d | set new cycle delay |
+| z | go to zero position |
+| v | show version setup data |
+| nu | show servo numbers |
+| h | help |
+| q | exit/quit | 
 
 
 SETUP DATA
 ----------
 Command v
-| Description | Content |
-| --- | --- |
+| **Description** | **Content** |
 | Program version             : | version number |
 | Version date                : | versiondate |
 | Task file name              : | fileName |
@@ -156,10 +156,11 @@ Command v
 
 Project specific startup values
 -------------------------------
-Values placed in the function controlModule() in losxxx.py
-- version = "2.00"
-- versiondate = "23.06.2020"
-- NUMBERofSERVOS = 6           (number of servos in your project)
+Values placed in the function controlModule() in losxxx.py<br>
+| **Varable** | **Value** | **Description** |
+| version | "2.00" | 
+| versiondate | "23.06.2020"|
+| NUMBERofSERVOS | 6 | number of servos in your project |
 - stepSize = 10                (step size for programming servos)
 - speed = 0.01                 (speed for running task)
 - delay = 0.0                  (delay between task cycles)
