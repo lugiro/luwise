@@ -9,6 +9,6 @@ Electronics.
 For more information about LOS see the enclosed LOS_User_Manual
 
 
-For more information about Lugiros project explore:<br>
+For more information about Lugiros projects explore:<br>
 Lugiros web site: www.lugiro.com<br>
 Lugiros youtube channel: https://www.youtube.com/channel/UCqSOBtVgxPjYwuK5DKgierg

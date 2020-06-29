@@ -1,14 +1,17 @@
 #!/usr/bin/env python
 """
-================================================
-ABElectronics Servo Pi pwm controller | PWM servo controller demo
+=================================================
+LOS - LUWISE OPERATING SYSTEM
 
-run with: python demo_servomove.py
-================================================
+LOS is a general control system for controlling 
+several servos with Raspberry Pi and Servo PWM Pi 
+expansion board from AB Electronics.
 
-This demo shows how to set the limits of movement on a servo
-and then move between those positions
+run with: python los202.py
+=================================================
+
 """
+
 
 from __future__ import absolute_import, division, print_function, \
                                                     unicode_literals
