@@ -115,7 +115,8 @@ The command **z** will return to the defined zero position.
 HELP - COMMAND MENU
 -------------------
 Command h<br>
-| **Command** | **Descrition** |
+| Command | Descrition |
+| :--- | :--- | 
 | n | make a new task file |
 | o | open an existing task file |
 | p | programming mode for servos |
