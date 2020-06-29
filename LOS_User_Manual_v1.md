@@ -115,7 +115,7 @@ The command **z** will return to the defined zero position.
 HELP - COMMAND MENU
 -------------------
 Command h<br>
-| Command | Descrition |
+| Command | Description |
 | :--- | :--- | 
 | n | make a new task file |
 | o | open an existing task file |
